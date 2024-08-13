@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.python-version
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Flask specific
+instance/
+*.db
+*.sqlite3
+
+# Pytest
+.cache/
+
+# Flask-SQLAlchemy
+migrations/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# MySQL
+*.sql
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+.dockerignore
+
+# JetBrains IDE
+/.idea
+
+# Ignore local env files
+.env
+.env.*
+
+# Flask-uploads (ignore any uploaded files, e.g., images)
+uploads/
+
+# Jupyter Notebooks
+*.ipynb_checkpoints
